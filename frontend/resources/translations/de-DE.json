@@ -74,6 +74,7 @@
     "chooseWorkspace": "Arbeitsbereich wählen",
     "defaultName": "Mein Arbeitsbereich",
     "create": "Arbeitsbereich erstellen",
+    "new": "Neuer Arbeitsbereich",
     "importFromNotion": "Von Notion importieren",
     "learnMore": "Mehr erfahren",
     "reset": "Arbeitsbereich zurücksetzen",
@@ -145,7 +146,12 @@
     "charCount": "Zeichenanzahl: {}",
     "createdAt": "Erstellt am: {}",
     "deleteView": "Löschen",
-    "duplicateView": "Duplizieren"
+    "duplicateView": "Duplizieren",
+    "wordCountLabel": "Wortanzahl: ",
+    "charCountLabel": "Zeichenanzahl: ",
+    "createdAtLabel": "Erstellt am: ",
+    "syncedAtLabel": "Synchronisiert: ",
+    "saveAsNewPage": "Nachrichten auf der Seite speichern"
   },
   "importPanel": {
     "textAndMarkdown": "Text & Markdown",
@@ -166,7 +172,9 @@
     "addToFavorites": "Zu Favoriten hinzufügen",
     "copyLink": "Link kopieren",
     "changeIcon": "Symbol ändern",
-    "collapseAllPages": "Alle Seiten einklappen"
+    "collapseAllPages": "Alle Seiten einklappen",
+    "movePageTo": "Seite verschieben nach",
+    "move": "Bewegen"
   },
   "blankPageTitle": "Leere Seite",
   "newPageText": "Neue Seite",
@@ -206,10 +214,34 @@
     "indexingFile": "Indizierung {}",
     "generatingResponse": "Antwort generieren",
     "selectSources": "Quellen auswählen",
+    "sourcesLimitReached": "Sie können nur bis zu 3 Dokumente der obersten Ebene und deren untergeordnete Elemente auswählen.",
+    "sourceUnsupported": "Wir unterstützen derzeit kein Chatten mit Datenbanken",
     "regenerate": "Versuchen Sie es erneut",
     "addToPageButton": "Zur Seite hinzufügen",
     "addToPageTitle": "Nachricht hinzufügen an...",
-    "addToNewPage": "Zu einer neuen Seite hinzufügen"
+    "addToNewPage": "Zu einer neuen Seite hinzufügen",
+    "addToNewPageName": "Aus \"{}\" extrahierte Nachrichten",
+    "addToNewPageSuccessToast": "Nachricht hinzugefügt zu",
+    "openPagePreviewFailedToast": "Seite konnte nicht geöffnet werden",
+    "changeFormat": {
+      "actionButton": "Format ändern",
+      "confirmButton": "Mit diesem Format regenerieren",
+      "textOnly": "Text",
+      "imageOnly": "Nur Bild",
+      "textAndImage": "Text und Bild",
+      "text": "Absatz",
+      "bullet": "Aufzählungsliste",
+      "number": "Nummerierte Liste",
+      "table": "Tabelle",
+      "blankDescription": "Antwort formatieren",
+      "defaultDescription": "Automatik-Modus"
+    },
+    "selectBanner": {
+      "saveButton": "Hinzufügen zu...",
+      "selectMessages": "Nachrichten auswählen",
+      "nSelected": "{} ausgewählt",
+      "allSelected": "Alle ausgewählt"
+    }
   },
   "trash": {
     "text": "Papierkorb",
